@@ -1,7 +1,24 @@
 aid: smart-crowd
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smart-crowd.png
 name: Smart Crowd
-description: Smart Crowd is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: SmartCrowd is MENA's first and biggest regulated real estate crowdfunding
+  and investment platform, based in Dubai and licensed by the Dubai Financial Services
+  Authority (DFSA). It lets retail investors pool capital to co-own income-generating
+  Dubai properties from as little as AED 500, offering both long-term Hold properties
+  (rental yield) and short-term Flip properties (renovation upside), plus a secondary
+  Share Transfer Facility for liquidity. SmartCrowd operates a consumer web and mobile
+  app experience with no public developer API surface documented at this time.
 url: https://raw.githubusercontent.com/api-evangelist/smart-crowd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Real Estate
+- Investing
+- Crowdfunding
+- Fintech
+- PropTech
+- Dubai
+- MENA
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,22 @@ maintainers:
 common:
 - type: Website
   url: https://smartcrowd.ae
+- type: SignUp
+  url: https://my.smartcrowd.ae/?signup=true
+- type: Login
+  url: https://my.smartcrowd.ae/
+- type: Support
+  url: https://help-center.smartcrowd.ae/
+- type: Blog
+  url: https://www.smartcrowd.ae/blog/
+- type: TermsOfService
+  url: https://www.smartcrowd.ae/terms-conditions/
+- type: PrivacyPolicy
+  url: https://www.smartcrowd.ae/privacy-policy/
+- type: DomainSecurity
+  url: security/smart-crowd-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
